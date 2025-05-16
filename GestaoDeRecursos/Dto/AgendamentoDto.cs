@@ -1,6 +1,6 @@
-﻿using GestaoDeRecursos.NewFolder;
+﻿using ERP.Enum;
 
-namespace GestaoDeRecursos.Dto
+namespace ERP.Dto
 {
     public class AgendamentoDto
     {

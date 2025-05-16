@@ -1,4 +1,4 @@
-﻿namespace GestaoDeRecursos.Dto
+﻿namespace ERP.Dto
 {
     public class DiaSemanaDto
     {

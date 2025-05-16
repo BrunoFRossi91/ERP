@@ -1,8 +1,8 @@
-﻿using GestaoDeRecursos.NewFolder;
+﻿using ERP.Enum;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GestaoDeRecursos.Models
+namespace ERP.Models
 {
     public class EntityAgendamento
     {

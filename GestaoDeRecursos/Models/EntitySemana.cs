@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace GestaoDeRecursos.Models
+namespace ERP.Models
 {
     public class EntitySemana
     {

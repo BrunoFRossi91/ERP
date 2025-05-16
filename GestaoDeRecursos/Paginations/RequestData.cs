@@ -1,4 +1,4 @@
-﻿namespace DBT.Utils.Paginations
+﻿namespace ERP.Paginations
 {
     public class RequestData<T> : PaginationParams
         where T : class

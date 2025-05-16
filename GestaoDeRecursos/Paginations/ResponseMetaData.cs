@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DBT.Utils.Paginations
+namespace ERP.Paginations
 {
     public class ResponseMetaData
     {

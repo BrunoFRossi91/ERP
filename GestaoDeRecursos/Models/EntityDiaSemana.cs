@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GestaoDeRecursos.Models
+namespace ERP.Models
 {
     public class EntityDiaSemana
     {

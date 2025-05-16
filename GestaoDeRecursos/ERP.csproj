@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controller\NewFolder\**" />
     <Compile Remove="Dto\Paginations\**" />
+    <Content Remove="Controller\NewFolder\**" />
     <Content Remove="Dto\Paginations\**" />
+    <EmbeddedResource Remove="Controller\NewFolder\**" />
     <EmbeddedResource Remove="Dto\Paginations\**" />
+    <None Remove="Controller\NewFolder\**" />
     <None Remove="Dto\Paginations\**" />
   </ItemGroup>
 
@@ -24,10 +28,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controller\NewFolder\" />
   </ItemGroup>
 
 </Project>
