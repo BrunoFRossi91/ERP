@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using GestaoDeRecursos.Models;
 
-namespace GestaoDeRecursos.Dto
+namespace ERP.Dto
 {
     public class UsuariosClienteDto
     {

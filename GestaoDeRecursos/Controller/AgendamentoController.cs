@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using GestaoDeRecursos.Data;
-using GestaoDeRecursos.Dto;
-using GestaoDeRecursos.Models;
-using GestaoDeRecursos.NewFolder;
+using ERP.Data;
+using ERP.Dto;
+using ERP.Enum;
+using ERP.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace GestaoDeRecursos.Controller
+namespace ERP.Controller
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

@@ -1,5 +1,5 @@
-using GestaoDeRecursos.Data;
-using GestaoDeRecursos.Models;
+using ERP.Data;
+using ERP.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

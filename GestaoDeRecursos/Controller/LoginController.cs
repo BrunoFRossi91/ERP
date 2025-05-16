@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using GestaoDeRecursos.Data;
+using ERP.Data;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GestaoDeRecursos.Controller
+namespace ERP.Controller
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

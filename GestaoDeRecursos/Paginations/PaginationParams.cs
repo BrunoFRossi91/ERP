@@ -1,4 +1,4 @@
-﻿namespace DBT.Utils.Paginations
+﻿namespace ERP.Paginations
 {
     public abstract class PaginationParams
     {

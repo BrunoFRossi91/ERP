@@ -1,7 +1,7 @@
-﻿using GestaoDeRecursos.Models;
+﻿using ERP.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace GestaoDeRecursos.Data
+namespace ERP.Data
 {
     public class GDRContext : DbContext
     {

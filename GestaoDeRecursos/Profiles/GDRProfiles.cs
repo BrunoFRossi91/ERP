@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using GestaoDeRecursos.Dto;
-using GestaoDeRecursos.Models;
+using ERP.Dto;
+using ERP.Models;
 
-namespace GestaoDeRecursos.Profiles
+namespace ERP.Profiles
 {
     public class GDRProfiles : Profile
     {
