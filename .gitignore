@@ -1,18 +1,17 @@
 ﻿# Build results
+[Bb]in/
+[Oo]bj/
 [Dd]ebug/
 [Rr]elease/
 x64/
 build/
 bld/
-[Bb]in/
-[Oo]bj/
+publish/
 
-# Visual Studio files
+# Visual Studio
 .vs/
-
-# User-specific files
-*.user
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
 
@@ -28,8 +27,26 @@ bld/
 *.db-shm
 *.db-wal
 
-# Static web assets folder
-wwwroot/
+# AssemblyInfo gerado automaticamente
+**/obj/**/*.AssemblyInfo.cs
+**/obj/**/*.csproj.FileListAbsolute.txt
+**/obj/**/*.csprojAssemblyReference.cache
+**/obj/**/*.g.cs
+**/obj/**/*.g.i.cs
 
-# Publish folder
-publish/
+# Static web assets e temporários
+wwwroot/
+staticwebassets.build.json
+staticwebassets.runtime.json
+apphost.exe
+
+# Rider / VSCode (caso use)
+.idea/
+.vscode/
+*.code-workspace
+
+# Backup temporários
+*~
+*.tmp
+*.bak
+*.swp
