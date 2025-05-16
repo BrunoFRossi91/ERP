@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "ContainingType": "ERP.Controller.AgendamentoController",
     "Method": "AdicionarAgenda",
     "RelativePath": "api/Agendamento/AdicionarAgenda",
     "HttpMethod": "POST",
@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "agenda",
-        "Type": "GestaoDeRecursos.Dto.AddAgendamentoDto",
+        "Type": "ERP.Dto.AddAgendamentoDto",
         "IsRequired": true
       }
     ],
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "ContainingType": "ERP.Controller.AgendamentoController",
     "Method": "AtualizarAgendamento",
     "RelativePath": "api/Agendamento/AtualizarAgendamento",
     "HttpMethod": "PUT",
@@ -31,14 +31,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.AgendamentoDto",
+        "Type": "ERP.Dto.AgendamentoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "ContainingType": "ERP.Controller.AgendamentoController",
     "Method": "CancelarAgendamento",
     "RelativePath": "api/Agendamento/CancelarAgendamento",
     "HttpMethod": "PUT",
@@ -54,7 +54,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "ContainingType": "ERP.Controller.AgendamentoController",
     "Method": "LerAgendamentos",
     "RelativePath": "api/Agendamento/LerAgendamentos",
     "HttpMethod": "GET",
@@ -63,7 +63,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.AgendamentoDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Dto.AgendamentoDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "ContainingType": "ERP.Controller.AgendamentoController",
     "Method": "LerAgendaPorId",
     "RelativePath": "api/Agendamento/LerAgendaPorId",
     "HttpMethod": "GET",
@@ -90,7 +90,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "ContainingType": "ERP.Controller.AvaliacaoController",
     "Method": "AdicionarAvaliacao",
     "RelativePath": "api/Avaliacao/AdicionarAvaliacao",
     "HttpMethod": "POST",
@@ -99,7 +99,7 @@
     "Parameters": [
       {
         "Name": "avaliacao",
-        "Type": "GestaoDeRecursos.Dto.AvaliacaoDto",
+        "Type": "ERP.Dto.AvaliacaoDto",
         "IsRequired": true
       }
     ],
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "ContainingType": "ERP.Controller.AvaliacaoController",
     "Method": "AtualizarAvaliacao",
     "RelativePath": "api/Avaliacao/AtualizarAvaliacao",
     "HttpMethod": "PUT",
@@ -121,14 +121,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.AvaliacaoDto",
+        "Type": "ERP.Dto.AvaliacaoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "ContainingType": "ERP.Controller.AvaliacaoController",
     "Method": "DeletarAvaliacao",
     "RelativePath": "api/Avaliacao/DeletarAvaliacao",
     "HttpMethod": "DELETE",
@@ -144,7 +144,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "ContainingType": "ERP.Controller.AvaliacaoController",
     "Method": "LerAvaliacao",
     "RelativePath": "api/Avaliacao/LerAvaliacao",
     "HttpMethod": "GET",
@@ -153,7 +153,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Models.EntityAvaliacao, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Models.EntityAvaliacao, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -164,7 +164,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "ContainingType": "ERP.Controller.AvaliacaoController",
     "Method": "LerAvaliacaoPorId",
     "RelativePath": "api/Avaliacao/LerAvaliacaoPorId",
     "HttpMethod": "GET",
@@ -180,7 +180,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "ContainingType": "ERP.Controller.AvaliacaoController",
     "Method": "LerAvaliacaoPorIdCliente",
     "RelativePath": "api/Avaliacao/LerAvaliacaoPorIdCliente",
     "HttpMethod": "GET",
@@ -196,7 +196,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "ContainingType": "ERP.Controller.ClienteController",
     "Method": "AdicionarCliente",
     "RelativePath": "api/Cliente/AdicionarCliente",
     "HttpMethod": "POST",
@@ -205,7 +205,7 @@
     "Parameters": [
       {
         "Name": "cliente",
-        "Type": "GestaoDeRecursos.Dto.ClienteDto",
+        "Type": "ERP.Dto.ClienteDto",
         "IsRequired": true
       }
     ],
@@ -218,7 +218,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "ContainingType": "ERP.Controller.ClienteController",
     "Method": "AtualizarCliente",
     "RelativePath": "api/Cliente/AtualizarCliente",
     "HttpMethod": "PUT",
@@ -227,14 +227,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.ClienteDto",
+        "Type": "ERP.Dto.ClienteDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "ContainingType": "ERP.Controller.ClienteController",
     "Method": "DeletarCliente",
     "RelativePath": "api/Cliente/DeletarCliente",
     "HttpMethod": "DELETE",
@@ -250,7 +250,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "ContainingType": "ERP.Controller.ClienteController",
     "Method": "LerClientePorId",
     "RelativePath": "api/Cliente/LerClientePorId",
     "HttpMethod": "GET",
@@ -266,7 +266,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "ContainingType": "ERP.Controller.ClienteController",
     "Method": "LerClientes",
     "RelativePath": "api/Cliente/LerClientes",
     "HttpMethod": "GET",
@@ -275,7 +275,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Models.EntityCliente, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Models.EntityCliente, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -286,7 +286,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "ContainingType": "ERP.Controller.DiaSemanaController",
     "Method": "AdicionarDiaSemana",
     "RelativePath": "api/DiaSemana/AdicionarDiaSemana",
     "HttpMethod": "POST",
@@ -295,7 +295,7 @@
     "Parameters": [
       {
         "Name": "diaSemanaDto",
-        "Type": "GestaoDeRecursos.Dto.DiaSemanaDto",
+        "Type": "ERP.Dto.DiaSemanaDto",
         "IsRequired": true
       }
     ],
@@ -308,7 +308,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "ContainingType": "ERP.Controller.DiaSemanaController",
     "Method": "AtualizarDiaSemana",
     "RelativePath": "api/DiaSemana/AtualizarDiaSemana",
     "HttpMethod": "PUT",
@@ -317,14 +317,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.DiaSemanaDto",
+        "Type": "ERP.Dto.DiaSemanaDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "ContainingType": "ERP.Controller.DiaSemanaController",
     "Method": "ComboboxHorariosDisponiveisPorDia",
     "RelativePath": "api/DiaSemana/ComboboxHorariosDisponiveisPorDia",
     "HttpMethod": "GET",
@@ -344,7 +344,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ERP.Dto.ComboxDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -355,7 +355,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "ContainingType": "ERP.Controller.DiaSemanaController",
     "Method": "DeletarDiaSemana",
     "RelativePath": "api/DiaSemana/DeletarDiaSemana",
     "HttpMethod": "DELETE",
@@ -371,7 +371,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "ContainingType": "ERP.Controller.DiaSemanaController",
     "Method": "LerDiaSemana",
     "RelativePath": "api/DiaSemana/LerDiaSemana",
     "HttpMethod": "GET",
@@ -380,7 +380,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.DiaSemanaDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Dto.DiaSemanaDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -391,7 +391,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "ContainingType": "ERP.Controller.DiaSemanaController",
     "Method": "LerDiaSemanaPorId",
     "RelativePath": "api/DiaSemana/LerDiaSemanaPorId",
     "HttpMethod": "GET",
@@ -407,7 +407,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "ContainingType": "ERP.Controller.EmpresaController",
     "Method": "AdicionarEmpresa",
     "RelativePath": "api/Empresa/AdicionarEmpresa",
     "HttpMethod": "POST",
@@ -416,7 +416,7 @@
     "Parameters": [
       {
         "Name": "empresa",
-        "Type": "GestaoDeRecursos.Dto.EmpresasDto",
+        "Type": "ERP.Dto.EmpresasDto",
         "IsRequired": true
       }
     ],
@@ -429,7 +429,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "ContainingType": "ERP.Controller.EmpresaController",
     "Method": "AtualizarEmpresa",
     "RelativePath": "api/Empresa/AtualizarEmpresa",
     "HttpMethod": "PUT",
@@ -438,14 +438,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.EmpresasDto",
+        "Type": "ERP.Dto.EmpresasDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "ContainingType": "ERP.Controller.EmpresaController",
     "Method": "ComboboxEmpresa",
     "RelativePath": "api/Empresa/ComboboxEmpresa",
     "HttpMethod": "GET",
@@ -454,7 +454,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ERP.Dto.ComboxDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -465,7 +465,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "ContainingType": "ERP.Controller.EmpresaController",
     "Method": "ComboboxEmpresaPorCliente",
     "RelativePath": "api/Empresa/ComboboxEmpresaPorCliente",
     "HttpMethod": "GET",
@@ -480,7 +480,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ERP.Dto.ComboxDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -491,7 +491,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "ContainingType": "ERP.Controller.EmpresaController",
     "Method": "DeletarEmpresa",
     "RelativePath": "api/Empresa/DeletarEmpresa",
     "HttpMethod": "DELETE",
@@ -507,7 +507,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "ContainingType": "ERP.Controller.EmpresaController",
     "Method": "LerEmpresaPorId",
     "RelativePath": "api/Empresa/LerEmpresaPorId",
     "HttpMethod": "GET",
@@ -523,7 +523,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "ContainingType": "ERP.Controller.EmpresaController",
     "Method": "LerEmpresas",
     "RelativePath": "api/Empresa/LerEmpresas",
     "HttpMethod": "GET",
@@ -532,7 +532,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Models.EntityEmpresa, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Models.EntityEmpresa, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -543,7 +543,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.LoginController",
+    "ContainingType": "ERP.Controller.LoginController",
     "Method": "VerificarUsuarioExistente",
     "RelativePath": "api/Login/VerificarUsuarioExistente",
     "HttpMethod": "POST",
@@ -552,14 +552,14 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "GestaoDeRecursos.Controller.UsuarioLoginModel",
+        "Type": "ERP.Controller.UsuarioLoginModel",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "ContainingType": "ERP.Controller.MetodoPagamentoController",
     "Method": "AdicionarMetodoPagamento",
     "RelativePath": "api/MetodoPagamento/AdicionarMetodoPagamento",
     "HttpMethod": "POST",
@@ -568,7 +568,7 @@
     "Parameters": [
       {
         "Name": "metodoPgt",
-        "Type": "GestaoDeRecursos.Dto.MetodoPagamentoDto",
+        "Type": "ERP.Dto.MetodoPagamentoDto",
         "IsRequired": true
       }
     ],
@@ -581,7 +581,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "ContainingType": "ERP.Controller.MetodoPagamentoController",
     "Method": "AtualizarMetodoPagamento",
     "RelativePath": "api/MetodoPagamento/AtualizarMetodoPagamento",
     "HttpMethod": "PUT",
@@ -590,14 +590,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.MetodoPagamentoDto",
+        "Type": "ERP.Dto.MetodoPagamentoDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "ContainingType": "ERP.Controller.MetodoPagamentoController",
     "Method": "DeletarMetodoPagamento",
     "RelativePath": "api/MetodoPagamento/DeletarMetodoPagamento",
     "HttpMethod": "DELETE",
@@ -613,7 +613,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "ContainingType": "ERP.Controller.MetodoPagamentoController",
     "Method": "LerMetodoPagamento",
     "RelativePath": "api/MetodoPagamento/LerMetodoPagamento",
     "HttpMethod": "GET",
@@ -622,7 +622,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.MetodoPagamentoDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Dto.MetodoPagamentoDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -633,7 +633,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "ContainingType": "ERP.Controller.MetodoPagamentoController",
     "Method": "LerMetodoPagamentooPorId",
     "RelativePath": "api/MetodoPagamento/LerMetodoPagamentooPorId",
     "HttpMethod": "GET",
@@ -649,7 +649,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "ContainingType": "ERP.Controller.ObrigacoesController",
     "Method": "AdicionarObrigacao",
     "RelativePath": "api/Obrigacoes/AdicionarObrigacao",
     "HttpMethod": "POST",
@@ -658,7 +658,7 @@
     "Parameters": [
       {
         "Name": "obrigacoes",
-        "Type": "GestaoDeRecursos.Dto.ObrigacoesDto",
+        "Type": "ERP.Dto.ObrigacoesDto",
         "IsRequired": true
       }
     ],
@@ -671,7 +671,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "ContainingType": "ERP.Controller.ObrigacoesController",
     "Method": "AtualizarObrigacao",
     "RelativePath": "api/Obrigacoes/AtualizarObrigacao",
     "HttpMethod": "PUT",
@@ -680,14 +680,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.ObrigacoesDto",
+        "Type": "ERP.Dto.ObrigacoesDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "ContainingType": "ERP.Controller.ObrigacoesController",
     "Method": "DeletarObrigacao",
     "RelativePath": "api/Obrigacoes/DeletarObrigacao",
     "HttpMethod": "DELETE",
@@ -703,7 +703,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "ContainingType": "ERP.Controller.ObrigacoesController",
     "Method": "LerObrigacaoPorId",
     "RelativePath": "api/Obrigacoes/LerObrigacaoPorId",
     "HttpMethod": "GET",
@@ -719,7 +719,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "ContainingType": "ERP.Controller.ObrigacoesController",
     "Method": "LerObrigacoes",
     "RelativePath": "api/Obrigacoes/LerObrigacoes",
     "HttpMethod": "GET",
@@ -728,7 +728,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.ObrigacoesDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Dto.ObrigacoesDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -739,7 +739,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "ContainingType": "ERP.Controller.PacotesController",
     "Method": "AdicionarPacote",
     "RelativePath": "api/Pacotes/AdicionarPacote",
     "HttpMethod": "POST",
@@ -748,7 +748,7 @@
     "Parameters": [
       {
         "Name": "pacotes",
-        "Type": "GestaoDeRecursos.Dto.PacotesDto",
+        "Type": "ERP.Dto.PacotesDto",
         "IsRequired": true
       }
     ],
@@ -761,7 +761,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "ContainingType": "ERP.Controller.PacotesController",
     "Method": "AtualizarPacote",
     "RelativePath": "api/Pacotes/AtualizarPacote",
     "HttpMethod": "PUT",
@@ -770,14 +770,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.PacotesDto",
+        "Type": "ERP.Dto.PacotesDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "ContainingType": "ERP.Controller.PacotesController",
     "Method": "ComboboxPacotePorEmpresaCliente",
     "RelativePath": "api/Pacotes/ComboboxPacotePorEmpresaCliente",
     "HttpMethod": "GET",
@@ -797,7 +797,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ERP.Dto.ComboxDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -808,7 +808,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "ContainingType": "ERP.Controller.PacotesController",
     "Method": "DeletarPacote",
     "RelativePath": "api/Pacotes/DeletarPacote",
     "HttpMethod": "DELETE",
@@ -824,7 +824,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "ContainingType": "ERP.Controller.PacotesController",
     "Method": "LerPacotePorId",
     "RelativePath": "api/Pacotes/LerPacotePorId",
     "HttpMethod": "GET",
@@ -839,7 +839,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "GestaoDeRecursos.Dto.PacotesDto",
+        "Type": "ERP.Dto.PacotesDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -850,7 +850,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "ContainingType": "ERP.Controller.PacotesController",
     "Method": "LerPacotes",
     "RelativePath": "api/Pacotes/LerPacotes",
     "HttpMethod": "GET",
@@ -859,7 +859,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.PacotesDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Dto.PacotesDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -870,7 +870,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "ContainingType": "ERP.Controller.ServicosController",
     "Method": "AdicionarServico",
     "RelativePath": "api/Servicos/AdicionarServico",
     "HttpMethod": "POST",
@@ -879,7 +879,7 @@
     "Parameters": [
       {
         "Name": "servicos",
-        "Type": "GestaoDeRecursos.Dto.ServicosDto",
+        "Type": "ERP.Dto.ServicosDto",
         "IsRequired": true
       }
     ],
@@ -892,7 +892,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "ContainingType": "ERP.Controller.ServicosController",
     "Method": "AtualizarServico",
     "RelativePath": "api/Servicos/AtualizarServico",
     "HttpMethod": "PUT",
@@ -901,14 +901,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.ServicosDto",
+        "Type": "ERP.Dto.ServicosDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "ContainingType": "ERP.Controller.ServicosController",
     "Method": "ComboboxServicoPorEmpresa",
     "RelativePath": "api/Servicos/ComboboxServicoPorEmpresa",
     "HttpMethod": "GET",
@@ -923,7 +923,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ERP.Dto.ComboxDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -934,7 +934,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "ContainingType": "ERP.Controller.ServicosController",
     "Method": "DeletarServico",
     "RelativePath": "api/Servicos/DeletarServico",
     "HttpMethod": "DELETE",
@@ -950,7 +950,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "ContainingType": "ERP.Controller.ServicosController",
     "Method": "LerServicoPorId",
     "RelativePath": "api/Servicos/LerServicoPorId",
     "HttpMethod": "GET",
@@ -966,7 +966,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "ContainingType": "ERP.Controller.ServicosController",
     "Method": "LerServicos",
     "RelativePath": "api/Servicos/LerServicos",
     "HttpMethod": "GET",
@@ -975,7 +975,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.ServicosDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Dto.ServicosDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -986,7 +986,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "ContainingType": "ERP.Controller.UsuariosController",
     "Method": "AdicionarUsuario",
     "RelativePath": "api/Usuarios/AdicionarUsuario",
     "HttpMethod": "POST",
@@ -995,7 +995,7 @@
     "Parameters": [
       {
         "Name": "usuario",
-        "Type": "GestaoDeRecursos.Dto.UsuariosDto",
+        "Type": "ERP.Dto.UsuariosDto",
         "IsRequired": true
       }
     ],
@@ -1008,7 +1008,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "ContainingType": "ERP.Controller.UsuariosController",
     "Method": "AtualizarUsuario",
     "RelativePath": "api/Usuarios/AtualizarUsuario",
     "HttpMethod": "PUT",
@@ -1017,14 +1017,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.UsuariosDto",
+        "Type": "ERP.Dto.UsuariosDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "ContainingType": "ERP.Controller.UsuariosController",
     "Method": "DeletarUsuario",
     "RelativePath": "api/Usuarios/DeletarUsuario",
     "HttpMethod": "DELETE",
@@ -1040,7 +1040,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "ContainingType": "ERP.Controller.UsuariosController",
     "Method": "LerUsuario",
     "RelativePath": "api/Usuarios/LerUsuario",
     "HttpMethod": "GET",
@@ -1049,7 +1049,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.UsuariosDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Dto.UsuariosDto, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1060,7 +1060,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "ContainingType": "ERP.Controller.UsuariosController",
     "Method": "LerUsuarioPorId",
     "RelativePath": "api/Usuarios/LerUsuarioPorId",
     "HttpMethod": "GET",
@@ -1076,7 +1076,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "ContainingType": "ERP.Controller.UsuariosClienteController",
     "Method": "AdicionarUsuariosCliente",
     "RelativePath": "api/UsuariosCliente/AdicionarUsuariosCliente",
     "HttpMethod": "POST",
@@ -1085,7 +1085,7 @@
     "Parameters": [
       {
         "Name": "cliente",
-        "Type": "GestaoDeRecursos.Dto.UsuariosClienteDto",
+        "Type": "ERP.Dto.UsuariosClienteDto",
         "IsRequired": true
       }
     ],
@@ -1098,7 +1098,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "ContainingType": "ERP.Controller.UsuariosClienteController",
     "Method": "AtualizarUsuariosCliente",
     "RelativePath": "api/UsuariosCliente/AtualizarUsuariosCliente",
     "HttpMethod": "PUT",
@@ -1107,14 +1107,14 @@
     "Parameters": [
       {
         "Name": "dados",
-        "Type": "GestaoDeRecursos.Dto.UsuariosClienteDto",
+        "Type": "ERP.Dto.UsuariosClienteDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "ContainingType": "ERP.Controller.UsuariosClienteController",
     "Method": "DeletarUsuariosCliente",
     "RelativePath": "api/UsuariosCliente/DeletarUsuariosCliente",
     "HttpMethod": "DELETE",
@@ -1130,7 +1130,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "ContainingType": "ERP.Controller.UsuariosClienteController",
     "Method": "LerClientes",
     "RelativePath": "api/UsuariosCliente/LerClientes",
     "HttpMethod": "GET",
@@ -1139,7 +1139,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Models.EntityUsuariosCliente, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ERP.Models.EntityUsuariosCliente, ERP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1150,7 +1150,7 @@
     ]
   },
   {
-    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "ContainingType": "ERP.Controller.UsuariosClienteController",
     "Method": "LerUsuariosClientePorId",
     "RelativePath": "api/UsuariosCliente/LerUsuariosClientePorId",
     "HttpMethod": "GET",

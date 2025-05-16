@@ -34,11 +34,13 @@ publish/
 **/obj/**/*.g.cs
 **/obj/**/*.g.i.cs
 
+
 # Static web assets e temporários
 wwwroot/
 staticwebassets.build.json
 staticwebassets.runtime.json
 apphost.exe
+ApiEndpoints.json
 
 # Rider / VSCode (caso use)
 .idea/

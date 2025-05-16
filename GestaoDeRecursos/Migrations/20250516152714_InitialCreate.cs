@@ -276,19 +276,19 @@ namespace ERP.Migrations
                         column: x => x.IdCliente,
                         principalTable: "Clientes",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_Pacote_Empresa_IdEmpresa",
                         column: x => x.IdEmpresa,
                         principalTable: "Empresa",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_Pacote_Servicos_IdServico",
                         column: x => x.IdServico,
                         principalTable: "Servicos",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                 });
 
             migrationBuilder.CreateTable(
@@ -319,31 +319,31 @@ namespace ERP.Migrations
                         column: x => x.IdCliente,
                         principalTable: "Clientes",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_Agendamento_DiaSemana_IdDiaSemana",
                         column: x => x.IdDiaSemana,
                         principalTable: "DiaSemana",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_Agendamento_Empresa_IdEmpresa",
                         column: x => x.IdEmpresa,
                         principalTable: "Empresa",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_Agendamento_Pacote_IdPacote",
                         column: x => x.IdPacote,
                         principalTable: "Pacote",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_Agendamento_Servicos_IdServico",
                         column: x => x.IdServico,
                         principalTable: "Servicos",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                 });
 
             migrationBuilder.CreateIndex(

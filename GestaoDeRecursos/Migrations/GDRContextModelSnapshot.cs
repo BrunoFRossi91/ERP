@@ -81,7 +81,7 @@ namespace ERP.Migrations
 
                     b.HasIndex("IdServico");
 
-                    b.ToTable("Agendamento");
+                    b.ToTable("Agendamento", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityAvaliacao", b =>
@@ -140,7 +140,7 @@ namespace ERP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Avaliacaos");
+                    b.ToTable("Avaliacaos", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityCliente", b =>
@@ -197,7 +197,7 @@ namespace ERP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clientes");
+                    b.ToTable("Clientes", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityDiaSemana", b =>
@@ -241,7 +241,7 @@ namespace ERP.Migrations
 
                     b.HasIndex("IdSemana");
 
-                    b.ToTable("DiaSemana");
+                    b.ToTable("DiaSemana", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityEmpresa", b =>
@@ -265,7 +265,7 @@ namespace ERP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Empresa");
+                    b.ToTable("Empresa", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityMetodoPagamento", b =>
@@ -300,7 +300,7 @@ namespace ERP.Migrations
 
                     b.HasIndex("IdEmpresa");
 
-                    b.ToTable("MetodoPagamento");
+                    b.ToTable("MetodoPagamento", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityObrigacoes", b =>
@@ -341,7 +341,7 @@ namespace ERP.Migrations
 
                     b.HasIndex("IdEmpresa");
 
-                    b.ToTable("Obrigacacoes");
+                    b.ToTable("Obrigacacoes", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityPacote", b =>
@@ -398,7 +398,7 @@ namespace ERP.Migrations
 
                     b.HasIndex("IdServico");
 
-                    b.ToTable("Pacote");
+                    b.ToTable("Pacote", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntitySemana", b =>
@@ -416,7 +416,7 @@ namespace ERP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Semana");
+                    b.ToTable("Semana", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityServicos", b =>
@@ -454,7 +454,7 @@ namespace ERP.Migrations
 
                     b.HasIndex("IdEmpresa");
 
-                    b.ToTable("Servicos");
+                    b.ToTable("Servicos", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityUsuarios", b =>
@@ -496,7 +496,7 @@ namespace ERP.Migrations
 
                     b.HasIndex("IdEmpresa");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuarios", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityUsuariosCliente", b =>
@@ -525,7 +525,7 @@ namespace ERP.Migrations
 
                     b.HasIndex("IdEmpresa");
 
-                    b.ToTable("UsuariosClientes");
+                    b.ToTable("UsuariosClientes", (string)null);
                 });
 
             modelBuilder.Entity("ERP.Models.EntityAgendamento", b =>
