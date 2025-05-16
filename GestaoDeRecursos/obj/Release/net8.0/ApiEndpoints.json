@@ -1,0 +1,1168 @@
+[
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "Method": "AdicionarAgenda",
+    "RelativePath": "api/Agendamento/AdicionarAgenda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agenda",
+        "Type": "GestaoDeRecursos.Dto.AddAgendamentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "Method": "AtualizarAgendamento",
+    "RelativePath": "api/Agendamento/AtualizarAgendamento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.AgendamentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "Method": "CancelarAgendamento",
+    "RelativePath": "api/Agendamento/CancelarAgendamento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "Method": "LerAgendamentos",
+    "RelativePath": "api/Agendamento/LerAgendamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.AgendamentoDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AgendamentoController",
+    "Method": "LerAgendaPorId",
+    "RelativePath": "api/Agendamento/LerAgendaPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "Method": "AdicionarAvaliacao",
+    "RelativePath": "api/Avaliacao/AdicionarAvaliacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "GestaoDeRecursos.Dto.AvaliacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "Method": "AtualizarAvaliacao",
+    "RelativePath": "api/Avaliacao/AtualizarAvaliacao",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.AvaliacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "Method": "DeletarAvaliacao",
+    "RelativePath": "api/Avaliacao/DeletarAvaliacao",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "Method": "LerAvaliacao",
+    "RelativePath": "api/Avaliacao/LerAvaliacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Models.EntityAvaliacao, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "Method": "LerAvaliacaoPorId",
+    "RelativePath": "api/Avaliacao/LerAvaliacaoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.AvaliacaoController",
+    "Method": "LerAvaliacaoPorIdCliente",
+    "RelativePath": "api/Avaliacao/LerAvaliacaoPorIdCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "Method": "AdicionarCliente",
+    "RelativePath": "api/Cliente/AdicionarCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "GestaoDeRecursos.Dto.ClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "Method": "AtualizarCliente",
+    "RelativePath": "api/Cliente/AtualizarCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.ClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "Method": "DeletarCliente",
+    "RelativePath": "api/Cliente/DeletarCliente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "Method": "LerClientePorId",
+    "RelativePath": "api/Cliente/LerClientePorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ClienteController",
+    "Method": "LerClientes",
+    "RelativePath": "api/Cliente/LerClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Models.EntityCliente, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "Method": "AdicionarDiaSemana",
+    "RelativePath": "api/DiaSemana/AdicionarDiaSemana",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diaSemanaDto",
+        "Type": "GestaoDeRecursos.Dto.DiaSemanaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "Method": "AtualizarDiaSemana",
+    "RelativePath": "api/DiaSemana/AtualizarDiaSemana",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.DiaSemanaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "Method": "ComboboxHorariosDisponiveisPorDia",
+    "RelativePath": "api/DiaSemana/ComboboxHorariosDisponiveisPorDia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdEmpresa",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dia",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "Method": "DeletarDiaSemana",
+    "RelativePath": "api/DiaSemana/DeletarDiaSemana",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "Method": "LerDiaSemana",
+    "RelativePath": "api/DiaSemana/LerDiaSemana",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.DiaSemanaDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.DiaSemanaController",
+    "Method": "LerDiaSemanaPorId",
+    "RelativePath": "api/DiaSemana/LerDiaSemanaPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "Method": "AdicionarEmpresa",
+    "RelativePath": "api/Empresa/AdicionarEmpresa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresa",
+        "Type": "GestaoDeRecursos.Dto.EmpresasDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "Method": "AtualizarEmpresa",
+    "RelativePath": "api/Empresa/AtualizarEmpresa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.EmpresasDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "Method": "ComboboxEmpresa",
+    "RelativePath": "api/Empresa/ComboboxEmpresa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "Method": "ComboboxEmpresaPorCliente",
+    "RelativePath": "api/Empresa/ComboboxEmpresaPorCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "Method": "DeletarEmpresa",
+    "RelativePath": "api/Empresa/DeletarEmpresa",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "Method": "LerEmpresaPorId",
+    "RelativePath": "api/Empresa/LerEmpresaPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.EmpresaController",
+    "Method": "LerEmpresas",
+    "RelativePath": "api/Empresa/LerEmpresas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Models.EntityEmpresa, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.LoginController",
+    "Method": "VerificarUsuarioExistente",
+    "RelativePath": "api/Login/VerificarUsuarioExistente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GestaoDeRecursos.Controller.UsuarioLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "Method": "AdicionarMetodoPagamento",
+    "RelativePath": "api/MetodoPagamento/AdicionarMetodoPagamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "metodoPgt",
+        "Type": "GestaoDeRecursos.Dto.MetodoPagamentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "Method": "AtualizarMetodoPagamento",
+    "RelativePath": "api/MetodoPagamento/AtualizarMetodoPagamento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.MetodoPagamentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "Method": "DeletarMetodoPagamento",
+    "RelativePath": "api/MetodoPagamento/DeletarMetodoPagamento",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "Method": "LerMetodoPagamento",
+    "RelativePath": "api/MetodoPagamento/LerMetodoPagamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.MetodoPagamentoDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.MetodoPagamentoController",
+    "Method": "LerMetodoPagamentooPorId",
+    "RelativePath": "api/MetodoPagamento/LerMetodoPagamentooPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "Method": "AdicionarObrigacao",
+    "RelativePath": "api/Obrigacoes/AdicionarObrigacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obrigacoes",
+        "Type": "GestaoDeRecursos.Dto.ObrigacoesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "Method": "AtualizarObrigacao",
+    "RelativePath": "api/Obrigacoes/AtualizarObrigacao",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.ObrigacoesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "Method": "DeletarObrigacao",
+    "RelativePath": "api/Obrigacoes/DeletarObrigacao",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "Method": "LerObrigacaoPorId",
+    "RelativePath": "api/Obrigacoes/LerObrigacaoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ObrigacoesController",
+    "Method": "LerObrigacoes",
+    "RelativePath": "api/Obrigacoes/LerObrigacoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.ObrigacoesDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "Method": "AdicionarPacote",
+    "RelativePath": "api/Pacotes/AdicionarPacote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pacotes",
+        "Type": "GestaoDeRecursos.Dto.PacotesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "Method": "AtualizarPacote",
+    "RelativePath": "api/Pacotes/AtualizarPacote",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.PacotesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "Method": "ComboboxPacotePorEmpresaCliente",
+    "RelativePath": "api/Pacotes/ComboboxPacotePorEmpresaCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdEmpresa",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "Method": "DeletarPacote",
+    "RelativePath": "api/Pacotes/DeletarPacote",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "Method": "LerPacotePorId",
+    "RelativePath": "api/Pacotes/LerPacotePorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoDeRecursos.Dto.PacotesDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.PacotesController",
+    "Method": "LerPacotes",
+    "RelativePath": "api/Pacotes/LerPacotes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.PacotesDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "Method": "AdicionarServico",
+    "RelativePath": "api/Servicos/AdicionarServico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servicos",
+        "Type": "GestaoDeRecursos.Dto.ServicosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "Method": "AtualizarServico",
+    "RelativePath": "api/Servicos/AtualizarServico",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.ServicosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "Method": "ComboboxServicoPorEmpresa",
+    "RelativePath": "api/Servicos/ComboboxServicoPorEmpresa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdEmpresa",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestaoDeRecursos.Dto.ComboxDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "Method": "DeletarServico",
+    "RelativePath": "api/Servicos/DeletarServico",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "Method": "LerServicoPorId",
+    "RelativePath": "api/Servicos/LerServicoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.ServicosController",
+    "Method": "LerServicos",
+    "RelativePath": "api/Servicos/LerServicos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.ServicosDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "Method": "AdicionarUsuario",
+    "RelativePath": "api/Usuarios/AdicionarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "GestaoDeRecursos.Dto.UsuariosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "Method": "AtualizarUsuario",
+    "RelativePath": "api/Usuarios/AtualizarUsuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.UsuariosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "Method": "DeletarUsuario",
+    "RelativePath": "api/Usuarios/DeletarUsuario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "Method": "LerUsuario",
+    "RelativePath": "api/Usuarios/LerUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Dto.UsuariosDto, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosController",
+    "Method": "LerUsuarioPorId",
+    "RelativePath": "api/Usuarios/LerUsuarioPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "Method": "AdicionarUsuariosCliente",
+    "RelativePath": "api/UsuariosCliente/AdicionarUsuariosCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "GestaoDeRecursos.Dto.UsuariosClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "Method": "AtualizarUsuariosCliente",
+    "RelativePath": "api/UsuariosCliente/AtualizarUsuariosCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "GestaoDeRecursos.Dto.UsuariosClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "Method": "DeletarUsuariosCliente",
+    "RelativePath": "api/UsuariosCliente/DeletarUsuariosCliente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "Method": "LerClientes",
+    "RelativePath": "api/UsuariosCliente/LerClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestaoDeRecursos.Models.EntityUsuariosCliente, GestaoDeRecursos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoDeRecursos.Controller.UsuariosClienteController",
+    "Method": "LerUsuariosClientePorId",
+    "RelativePath": "api/UsuariosCliente/LerUsuariosClientePorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
