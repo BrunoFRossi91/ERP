@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using GestaoDeRecursos.Models;
+using ERP.Models;
 
 namespace ERP.Dto
 {
