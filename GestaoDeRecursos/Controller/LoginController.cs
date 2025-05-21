@@ -18,34 +18,29 @@ namespace ERP.Controller
         }
 
         [HttpPost]
-        public IActionResult VerificarUsuarioExistente([FromBody] UsuarioLoginModel model)
+        public IActionResult VerifyUser([FromBody] UserLoginModel model)
         {
-            // Verificar se o usuário com o email fornecido existe no banco de dados
-            var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == model.Email);
+            var user = _context.User.FirstOrDefault(u => u.Email == model.Email);
 
-            if (usuario == null)
+            if (user == null)
             {
-                return NotFound("Usuário não encontrado");
+                return NotFound("User not found");
+            }
+
+            if (user.Password == model.Password)
+            {
+                return Ok("Valid credentials");
             }
             else
             {
-                // Verificar se a senha fornecida corresponde à senha armazenada no banco de dados
-                if (usuario.Senha == model.Senha)
-                {
-                    return Ok("Credenciais válidas");
-                }
-                else
-                {
-                    return Unauthorized("Senha incorreta");
-                }
+                return Unauthorized("Incorrect password");
             }
         }
     }
 
-    public class UsuarioLoginModel
+    public class UserLoginModel
     {
         public string Email { get; set; }
-        public string Senha { get; set; }
+        public string Password { get; set; }
     }
-
 }

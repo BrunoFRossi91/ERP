@@ -8,18 +8,15 @@ namespace ERP.Profiles
     {
         public GDRProfiles()
         {
-            CreateMap<EmpresasDto, EntityCompany>();
-            CreateMap<ClienteDto, EntityCustomer>();
-            CreateMap<UsuariosDto, EntityUser>();
-            CreateMap<UsuariosClienteDto, EntityCustomerUser>();
-            CreateMap<PacotesDto, EntityPackage>();
-            CreateMap<ServicosDto, EntityService>();
-            CreateMap<DiaSemanaDto, EntityDiaSemana>();
-            CreateMap<MetodoPagamentoDto, EntityMetodoPagamento>();
-            CreateMap<ObrigacoesDto, EntityObrigacoes>();
-            CreateMap<AgendamentoDto, EntityAgendamento>();
-            CreateMap<AddAgendamentoDto, EntityAgendamento>();
-            CreateMap<AvaliacaoDto, EntityAvaliacao>();
+            CreateMap<CompanyDto, EntityCompany>();
+            CreateMap<CustomerDto, EntityCustomer>();
+            CreateMap<UserDto, EntityUser>();
+            CreateMap<CustomerUserDto, EntityCustomerUser>();
+            CreateMap<PackageDto, EntityPackage>();
+            CreateMap<ServiceDto, EntityService>();
+            CreateMap<EmployeeDto, EntityEmployee>();
+            CreateMap<SupplierDto, EntitySupplier>();
+            CreateMap<ProductDto, EntityProduct>();
         }
     }
 }
