@@ -8,18 +8,14 @@ namespace ERP.Data
         public GDRContext(DbContextOptions<GDRContext> opts)
             : base(opts) { }
 
-        public DbSet<EntityCliente> Clientes { get; set; }
-        public DbSet<EntityEmpresa> Empresa { get; set; }
-        public DbSet<EntityUsuarios> Usuarios { get; set; }
-        public DbSet<EntityServicos> Servicos { get; set; }
-        public DbSet<EntityObrigacoes> Obrigacacoes { get; set; }
-        public DbSet<EntityDiaSemana> DiaSemana { get; set; }
-        public DbSet<EntityMetodoPagamento> MetodoPagamento { get; set; }
-        public DbSet<EntityAgendamento> Agendamento { get; set; }
-        public DbSet<EntityPacote> Pacote { get; set; }
-        public DbSet<EntityUsuariosCliente> UsuariosClientes { get; set; }
-        public DbSet<EntitySemana> Semana { get; set; }
-
-        public DbSet<EntityAvaliacao> Avaliacaos { get; set; }
+        public DbSet<EntityCustomer> Customer { get; set; }
+        public DbSet<EntityCompany> Company { get; set; }
+        public DbSet<EntityUser> User { get; set; }
+        public DbSet<EntityService> Service { get; set; }
+        public DbSet<EntityPackage> Package { get; set; }
+        public DbSet<EntityCustomerUser> CustomerUser { get; set; }
+        public DbSet<EntityEmployee> Employee { get; set; }
+        public DbSet<EntitySupplier> Supplier { get; set; }
+        public DbSet<EntityProduct> Product { get; set; }
     }
 }

@@ -10,7 +10,7 @@ builder.Services.AddDbContext<GDRContext>(opts =>
 );
 
 // Adicionando serviços ao container
-builder.Services.AddScoped<EntityEmpresa>();
+builder.Services.AddScoped<EntityCompany>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers();
 

@@ -2,13 +2,17 @@
 
 namespace ERP.Models
 {
-    public class EntitySemana
+    public class EntityCompany
     {
         [Key]
         [Required]
         public int Id { get; set; }
 
         [StringLength(70)]
-        public string Nome { get; set; }
+        public string Name { get; set; }
+
+        public DateTime? StartDate { get; set; }
+
+        public DateTime? EndDate { get; set; }
     }
 }

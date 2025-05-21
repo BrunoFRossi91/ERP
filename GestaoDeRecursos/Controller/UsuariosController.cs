@@ -23,9 +23,9 @@ namespace ERP.Controller
         [HttpPost]
         public void AdicionarUsuario([FromBody] UsuariosDto usuario)
         {
-            EntityUsuarios entityUsuarios = _mapper.Map<EntityUsuarios>(usuario);
-            entityUsuarios.DataCriacao = DateTime.Now;
-            _context.Usuarios.Add(entityUsuarios);
+            EntityUser EntityUser = _mapper.Map<EntityUser>(usuario);
+            EntityUser.DataCriacao = DateTime.Now;
+            _context.Usuarios.Add(EntityUser);
             _context.SaveChanges();
         }
 
@@ -41,7 +41,7 @@ namespace ERP.Controller
         [HttpGet]
         public List<UsuariosDto> LerUsuario()
         {
-            List<EntityUsuarios> usuarios = _context.Usuarios.Include(e => e.Empresa).ToList();
+            List<EntityUser> usuarios = _context.Usuarios.Include(e => e.Empresa).ToList();
             List<UsuariosDto> usuariosDto = new List<UsuariosDto>();
 
             foreach (var usuario in usuarios)
